@@ -145,13 +145,15 @@ volumen = pi*a**2*b
 print('El volumen del clindro es: ', volumen, 'decimales')
 
 
-#Sistemas condicionales
+# Sistemas condicionales
+
 Si un programa no fuera mas que una lista de ordenes a ejecutar de forma secuencial, una por una, no tendria
 mucha utilidad. Las condicionales no permiten comprobar condiciones y hacer que nuestro programa se comporte
 de una formau otra, que ejecute un fragmento de codigo u otro, dependiendo de esta condicion, aqui es donde
 cobran su importancia el tipo boliano y los operadores logicos.
 
-#Condicional "if"
+# Condicional "if"
+
 La forma mas simple de una setencia condicional es el "if" (del ingles si) seguido de la condicion a evaluar,
 dos puntos (:) y en la siguiente linea e indentado el codigo a ejecutar en caso de que se cumpla dicha condicion.
 
@@ -172,7 +174,8 @@ else
 en caso de que las comparaciones, de arriba no sean ciertas
 
 
-#Ciclo for...in
+# Ciclo for...in
+
 Se utiliza de forma generica de iterar sobre una frecuencia es decir recorrer una secuencia.
 
 secuencia = ["uno", "dos", "tres"]
@@ -218,18 +221,21 @@ area3 = areatriangulo(5.4, 4.2)
 print('el area es: ', area)
 
 
-#Bucles
+# Bucles
+
 Mientras que las condicionales permiten ejecutar distintos fragmentos de codigo dependiendo de ciertas
 condiciones, los bucles permiten ejecutar un mismo fragmento de codigo un cierto numero de veces mientras se
 cumpla una determinada condicion.
 
-#While
+# While
+
 El bucle "while" (mientras) ejecuta un fragmento de codigo mientras se cumpla la condicion. El bucle while
 tiene la siguiente estructura:
 while condicion : 
     fragmento de codigo que se repite
 
-#Funciones
+# Funciones
+
 una funcion es un fragmento de codigo con un nombre asociado que realiza una serie de tareas y devuelve un
 valor ademas de ayudarnos a programar y depurar dividiendo el programa en partes ademas las funciones tambien permiten 
 reutilizar otros codigos.
@@ -307,8 +313,8 @@ Sentencias "if"
 import numpy as np
 import matplotlib.pyplot as plt
 x = np.arange(100)
-y = np.sin(x)ficando
-
+y = np.sin(x)
+graficando
 plt.plot (x,y)
 plt.show () 
 
@@ -552,14 +558,16 @@ Jessie.forward(50)
 ventana.mainloop()
 
 
-#Programacion
+# Programacion
+
 Al principio del curso comentabamos que python es un lenguaje multiparadigma en el que se podia 
 trabajar con programacion estructurada, como veniamos haciendo hasta ahora o con programacion
 orientada en objetos el cual es un paradigma de programacion en el que en el que los conceptos 
 del mundo real relevantes para nuestro problema se modelan atraves de clases y objetos, y del nuestro
 programa consiste en una serie de interacciones de nuestro sistema.
 
-#Clases y objetos
+# Clases y objetos
+
 Un objeto es una entidad que agrupa un estado y una funcionalidad relacionada. El estado del objeto se 
 define a traves de variables llamadas atributos, mientras que la funcionalidad se modela a traves de funciones
 a las que se les conoce con el nombre de metodos del objeto.
@@ -568,7 +576,8 @@ Un ejemplo de objeto podria ser un coche en el que tendriamos atributos como la 
 color, metodos de como arrancar y parar. O bien cualquier otra combinacion de atributos y metodos segun lo que 
 fuera relevante para nuestro programa.
 
-#Clases
+# Clases
+
 Una clase no es mas que una plantilla generica de la cual instancia a los objetos. Es la plantilla que define que
 atributos y metodos tendran los objetos de la clase. En python las clases se definen mediante la palabra clave 
 "class" seguido del nombre de la clase, seguido ":" y a continuacion identado el cuerpo de la clase.
